@@ -45,7 +45,9 @@ export default defineConfig({
         video:"on",
         trace:"on",
         actionTimeout: 15000,
-        navigationTimeout: 30000
+        navigationTimeout: 30000,
+        baseURL: 'https://www.demoblaze.com',
+        headless: false
       },
       
     }

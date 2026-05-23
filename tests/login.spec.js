@@ -6,8 +6,9 @@ let page;
 
 test.beforeAll(async ({ browser }) => {
   const context = await browser.newContext();
-  page = await context.newPage();
-  await page.goto('https://cd-r3.finwyze.com/');
+  const page= await context.newPage()
+  await page.goto('https://cd-r3.finwyze.com/')
+  
 });
 
 
