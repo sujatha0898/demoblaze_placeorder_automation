@@ -47,7 +47,7 @@ export default defineConfig({
         actionTimeout: 15000,
         navigationTimeout: 30000,
         baseURL: 'https://www.demoblaze.com',
-        headless: false
+        headless: true
       },
       
     }
